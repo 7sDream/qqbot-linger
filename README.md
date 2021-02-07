@@ -28,5 +28,5 @@ linger # start the bot
 
 Unlicense.
 
-[nonebot-plugin-bam]: https://github.com/7sDream/nonebot_plugin_bam
-[nonebot-plugin-7s-roll]: https://github.com/7sDream/nonebot_plugin_7s_roll
+[nonebot-plugin-bam]: https://github.com/7sDream/nonebot-plugin-bam
+[nonebot-plugin-7s-roll]: https://github.com/7sDream/nonebot-plugin-7s-roll
