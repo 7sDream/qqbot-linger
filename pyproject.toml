@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "qqbot-linger"
-version = "0.0.1"
+version = "0.0.2"
 description = "My QQ Bot for personal use"
 authors = ["7sDream <i@7sdre.am>"]
 license = "Unlicense"
@@ -20,8 +20,8 @@ include = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-nonebot2 = {version = "^2.0.0a9.post1", allow-prereleases = true}
-nonebot-plugin-bam = "^0.0.2"
+nonebot2 = {version = "^2.0.0a10", allow-prereleases = true}
+nonebot-plugin-bam = "^0.0.4"
 
 [tool.poetry.dev-dependencies]
 rope = "^0.18.0"
