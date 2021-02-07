@@ -323,6 +323,17 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "nonebot-plugin-7s-roll"
+version = "0.1.0"
+description = "A roll dice plugin for nonebot"
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+
+[package.dependencies]
+nonebot2 = ">=2.0.0-alpha.10,<3.0.0"
+
+[[package]]
 name = "nonebot-plugin-apscheduler"
 version = "0.1.2"
 description = "APScheduler Support for NoneBot2"
@@ -629,7 +640,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "b9122a930610c68e74a24d019fbb9940346f2e4b071fba1c15c8a33bcceece09"
+content-hash = "afccffc15e9700ca87c099780a1d0521a3dab606366ed79b56592f316bb22594"
 
 [metadata.files]
 aiodns = [
@@ -934,6 +945,10 @@ multidict = [
 mypy-extensions = [
     {file = "mypy_extensions-0.4.3-py2.py3-none-any.whl", hash = "sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d"},
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
+]
+nonebot-plugin-7s-roll = [
+    {file = "nonebot-plugin-7s-roll-0.1.0.tar.gz", hash = "sha256:0beadca7e332371c5f721e253e8bb98fce2819d5312d292004e31d954f3d009c"},
+    {file = "nonebot_plugin_7s_roll-0.1.0-py3-none-any.whl", hash = "sha256:12fb2e3b94a53e724556cd3c96967637144ee137a6768889feafda3de02ab4a4"},
 ]
 nonebot-plugin-apscheduler = [
     {file = "nonebot-plugin-apscheduler-0.1.2.tar.gz", hash = "sha256:1765336cd388dde15f723ed12dbca942b04e4c25d5d7786878e447b09e68b909"},

@@ -5,6 +5,7 @@
 ## 功能
 
 - Bilibili 用户监控，参见：[nonebot-plugin-bam]
+- 跑团骰子，参见 [nonebot-plugin-7s-roll]
 
 ## 使用
 
@@ -28,3 +29,4 @@ linger # start the bot
 Unlicense.
 
 [nonebot-plugin-bam]: https://github.com/7sDream/nonebot_plugin_bam
+[nonebot-plugin-7s-roll]: https://github.com/7sDream/nonebot_plugin_7s_roll
