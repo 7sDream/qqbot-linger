@@ -3,6 +3,20 @@ name = "qqbot-linger"
 version = "0.0.1"
 description = "My QQ Bot for personal use"
 authors = ["7sDream <i@7sdre.am>"]
+license = "Unlicense"
+readme = "README.md"
+homepage = "https://github.com/7sDream/qqbot-linger"
+repository = "https://github.com/7sDream/qqbot-linger"
+keywords = ["nonebot", "bilibili", "qqbot"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+]
+include = [
+    "UNLICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
