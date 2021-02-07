@@ -26,3 +26,5 @@ linger # start the bot
 ## LICENSE
 
 Unlicense.
+
+[nonebot-plugin-bam]: https://github.com/7sDream/nonebot_plugin_bam
