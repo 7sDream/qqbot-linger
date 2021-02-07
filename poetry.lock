@@ -324,7 +324,7 @@ python-versions = "*"
 
 [[package]]
 name = "nonebot-plugin-7s-roll"
-version = "0.1.0"
+version = "0.1.1"
 description = "A roll dice plugin for nonebot"
 category = "main"
 optional = false
@@ -347,7 +347,7 @@ nonebot2 = ">=2.0.0-alpha.8,<3.0.0"
 
 [[package]]
 name = "nonebot-plugin-bam"
-version = "0.0.5"
+version = "0.1.0"
 description = "Bilibili activity monitor plugin for nonebot"
 category = "main"
 optional = false
@@ -640,7 +640,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "afccffc15e9700ca87c099780a1d0521a3dab606366ed79b56592f316bb22594"
+content-hash = "e4937a8788235bdce912903f8740bdb53df3ce95258da9eff2a0f02e64b8f40d"
 
 [metadata.files]
 aiodns = [
@@ -947,16 +947,16 @@ mypy-extensions = [
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
 ]
 nonebot-plugin-7s-roll = [
-    {file = "nonebot-plugin-7s-roll-0.1.0.tar.gz", hash = "sha256:0beadca7e332371c5f721e253e8bb98fce2819d5312d292004e31d954f3d009c"},
-    {file = "nonebot_plugin_7s_roll-0.1.0-py3-none-any.whl", hash = "sha256:12fb2e3b94a53e724556cd3c96967637144ee137a6768889feafda3de02ab4a4"},
+    {file = "nonebot-plugin-7s-roll-0.1.1.tar.gz", hash = "sha256:5b05d0212b33eb0a20465c409b501fcd66287f958701f6b488ecef255f6d35bb"},
+    {file = "nonebot_plugin_7s_roll-0.1.1-py3-none-any.whl", hash = "sha256:1c7560d1a709b18fd01b46fc6d87c34aaa659d4d8bf27e4eb9fac82594d113f3"},
 ]
 nonebot-plugin-apscheduler = [
     {file = "nonebot-plugin-apscheduler-0.1.2.tar.gz", hash = "sha256:1765336cd388dde15f723ed12dbca942b04e4c25d5d7786878e447b09e68b909"},
     {file = "nonebot_plugin_apscheduler-0.1.2-py3-none-any.whl", hash = "sha256:eed7b9e60d08826ae4919f82dc240fc7ec469185271c2271e14438a3e0ca7692"},
 ]
 nonebot-plugin-bam = [
-    {file = "nonebot_plugin_bam-0.0.5-py3-none-any.whl", hash = "sha256:1c1913964101267a2d045eac7d8eafaf785abfa3df9e8601c222bc76c3b59b61"},
-    {file = "nonebot_plugin_bam-0.0.5.tar.gz", hash = "sha256:5ea2ed432db2b553d9a5625cb50543ce67e25d8187d83b10860938817a5b550c"},
+    {file = "nonebot_plugin_bam-0.1.0-py3-none-any.whl", hash = "sha256:24f8f0689c73733ef89cf1ab7429e3a37588d69574637fbef1209c1ec49b771e"},
+    {file = "nonebot_plugin_bam-0.1.0.tar.gz", hash = "sha256:27b3565e960dca6e3629288bbdcb1026675f640531b9d20fe48c3dd8b824f0fc"},
 ]
 nonebot2 = [
     {file = "nonebot2-2.0.0a10-py3-none-any.whl", hash = "sha256:e4d75367b89a978b6f620a7de1c7fe598059868c8a9034936b9b471dd8c7c1a7"},
