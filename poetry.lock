@@ -347,7 +347,7 @@ nonebot2 = ">=2.0.0-alpha.8,<3.0.0"
 
 [[package]]
 name = "nonebot-plugin-bam"
-version = "0.1.1"
+version = "0.1.2"
 description = "Bilibili activity monitor plugin for nonebot"
 category = "main"
 optional = false
@@ -640,7 +640,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "63ce468082278e76047dc896e7459810e92991d3ee4cf286a96c59aad397e5cc"
+content-hash = "83c9a6b3f529854705396c1f6ef19dda6bf954d019dd8f4046fa5a748c98c302"
 
 [metadata.files]
 aiodns = [
@@ -955,8 +955,8 @@ nonebot-plugin-apscheduler = [
     {file = "nonebot_plugin_apscheduler-0.1.2-py3-none-any.whl", hash = "sha256:eed7b9e60d08826ae4919f82dc240fc7ec469185271c2271e14438a3e0ca7692"},
 ]
 nonebot-plugin-bam = [
-    {file = "nonebot_plugin_bam-0.1.1-py3-none-any.whl", hash = "sha256:ece21350cf4b1a247346ac72f59405c8330cb2e090597eb331934a24fe46a1e1"},
-    {file = "nonebot_plugin_bam-0.1.1.tar.gz", hash = "sha256:08dd46433befb6c0b88f37f85e3c9b014b7d49e7f1ea39b903deaa850935efec"},
+    {file = "nonebot_plugin_bam-0.1.2-py3-none-any.whl", hash = "sha256:65003b25d10454e833a9d5da749cc7753d0b5dc381c151b69896269fa4aa554a"},
+    {file = "nonebot_plugin_bam-0.1.2.tar.gz", hash = "sha256:3d548280dc015deb848543cc4c11099331eccb7babfd818722d7fc597f817c13"},
 ]
 nonebot2 = [
     {file = "nonebot2-2.0.0a10-py3-none-any.whl", hash = "sha256:e4d75367b89a978b6f620a7de1c7fe598059868c8a9034936b9b471dd8c7c1a7"},
