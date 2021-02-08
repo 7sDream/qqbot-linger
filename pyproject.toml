@@ -21,8 +21,8 @@ include = [
 [tool.poetry.dependencies]
 python = "^3.9"
 nonebot2 = {version = "^2.0.0a10", allow-prereleases = true}
-nonebot-plugin-bam = "^0.1.0"
-nonebot-plugin-7s-roll = "^0.1.0"
+nonebot-plugin-bam = "^0.1.1"
+nonebot-plugin-7s-roll = "^0.1.2"
 
 [tool.poetry.dev-dependencies]
 rope = "^0.18.0"
