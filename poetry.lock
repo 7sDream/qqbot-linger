@@ -805,17 +805,6 @@ files = [
 ]
 
 [[package]]
-name = "iniconfig"
-version = "2.0.0"
-description = "brain-dead simple config-ini parsing"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"},
-    {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"},
-]
-
-[[package]]
 name = "isort"
 version = "5.12.0"
 description = "A Python utility / library to sort Python imports."
@@ -1118,24 +1107,22 @@ nonebot2 = ">=2.0.0,<3.0.0"
 
 [[package]]
 name = "nonebot-plugin-bam"
-version = "0.2.0"
+version = "0.2.0a1"
 description = "Bilibili activity monitor plugin for nonebot"
 optional = false
-python-versions = "^3.9"
-files = []
-develop = true
+python-versions = ">=3.9,<4.0"
+files = [
+    {file = "nonebot_plugin_bam-0.2.0a1-py3-none-any.whl", hash = "sha256:959fb7b4a188cc52abc66b091872acd82061fdca3e9cbbc7acd2c64ee0b9bc29"},
+    {file = "nonebot_plugin_bam-0.2.0a1.tar.gz", hash = "sha256:dced017d97af3c0d7b57d1bc975a038811a0fd3958afdea13eaa9b4faad06e49"},
+]
 
 [package.dependencies]
-aiohttp = {version = "^3.8.4", extras = ["speedups"]}
-nonebot-adapter-onebot = "^2.2.3"
-nonebot-plugin-apscheduler = "^0.3.0"
-nonebot2 = {version = "^2.0.0", extras = ["fastapi"]}
-peewee = "^3.16.2"
-pydantic = "^1.10.9"
-
-[package.source]
-type = "directory"
-url = "../nonebot-plugin-bam"
+aiohttp = {version = ">=3.8.4,<4.0.0", extras = ["speedups"]}
+nonebot-adapter-onebot = ">=2.2.3,<3.0.0"
+nonebot-plugin-apscheduler = ">=0.3.0,<0.4.0"
+nonebot2 = ">=2.0.0,<3.0.0"
+peewee = ">=3.16.2,<4.0.0"
+pydantic = ">=1.10.9,<2.0.0"
 
 [[package]]
 name = "nonebot2"
@@ -1212,21 +1199,6 @@ files = [
 [package.extras]
 docs = ["furo (>=2023.5.20)", "proselint (>=0.13)", "sphinx (>=7.0.1)", "sphinx-autodoc-typehints (>=1.23,!=1.23.4)"]
 test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.3.1)", "pytest-cov (>=4.1)", "pytest-mock (>=3.10)"]
-
-[[package]]
-name = "pluggy"
-version = "1.0.0"
-description = "plugin and hook calling mechanisms for python"
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"},
-    {file = "pluggy-1.0.0.tar.gz", hash = "sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159"},
-]
-
-[package.extras]
-dev = ["pre-commit", "tox"]
-testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pycares"
@@ -1398,28 +1370,6 @@ typing-extensions = {version = ">=3.10.0", markers = "python_version < \"3.10\""
 [package.extras]
 spelling = ["pyenchant (>=3.2,<4.0)"]
 testutils = ["gitpython (>3)"]
-
-[[package]]
-name = "pytest"
-version = "7.3.2"
-description = "pytest: simple powerful testing with Python"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "pytest-7.3.2-py3-none-any.whl", hash = "sha256:cdcbd012c9312258922f8cd3f1b62a6580fdced17db6014896053d47cddf9295"},
-    {file = "pytest-7.3.2.tar.gz", hash = "sha256:ee990a3cc55ba808b80795a79944756f315c67c12b56abd3ac993a7b8c17030b"},
-]
-
-[package.dependencies]
-colorama = {version = "*", markers = "sys_platform == \"win32\""}
-exceptiongroup = {version = ">=1.0.0rc8", markers = "python_version < \"3.11\""}
-iniconfig = "*"
-packaging = "*"
-pluggy = ">=0.12,<2.0"
-tomli = {version = ">=1.0.0", markers = "python_version < \"3.11\""}
-
-[package.extras]
-testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
 [[package]]
 name = "python-dotenv"
@@ -2022,4 +1972,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "1483ab3d9d0254009ace039e862686432e3fd4ef606cbfea3d44972a452e170d"
+content-hash = "8893977483fa809e64cac1ac8026a66fc726d19321d039b3ba3b05461df3f796"
