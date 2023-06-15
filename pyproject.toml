@@ -12,6 +12,8 @@ classifiers = [
     "Development Status :: 3 - Alpha",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: The Unlicense (Unlicense)",
 ]
 include = [
@@ -22,7 +24,7 @@ include = [
 python = "^3.9"
 pydantic = "1.10.9"
 nonebot2 = {extras = ["fastapi"], version = "2.0.0"}
-nonebot-plugin-7s-roll = "~0.1.2"
+nonebot-plugin-7s-roll = "^0.2.0a1"
 nonebot-plugin-bam = "^0.2.0a1"
 
 [tool.poetry.group.dev.dependencies]

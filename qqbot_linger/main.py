@@ -11,7 +11,7 @@ def main():
     nonebot.load_builtin_plugins()
     nonebot.load_plugin("nonebot_plugin_apscheduler")
     nonebot.load_plugin("nonebot_plugin_bam")
-    # nonebot.load_plugin("nonebot_plugin_7s_roll")
+    nonebot.load_plugin("nonebot_plugin_7s_roll")
 
     nonebot.run()
 
