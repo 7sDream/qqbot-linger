@@ -1078,16 +1078,17 @@ nonebot2 = ">=2.0.0-beta.3,<3.0.0"
 
 [[package]]
 name = "nonebot-plugin-7s-roll"
-version = "0.2.0a1"
+version = "0.2.0"
 description = "A roll dice plugin for nonebot"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "nonebot_plugin_7s_roll-0.2.0a1-py3-none-any.whl", hash = "sha256:059d975f6e9ac083a74ffe52c5c6f5458c0b4b9613908d3512e051417c66a84a"},
-    {file = "nonebot_plugin_7s_roll-0.2.0a1.tar.gz", hash = "sha256:a388946a12aa91a22eff21cbc2cb92c7c36ca6090c4ac2de08ba36919089402b"},
+    {file = "nonebot_plugin_7s_roll-0.2.0-py3-none-any.whl", hash = "sha256:412368e031cf6cf6eab4c1304c2718a074160f794eca578b2ed606f4fbf7c719"},
+    {file = "nonebot_plugin_7s_roll-0.2.0.tar.gz", hash = "sha256:056d61d7405eb8ec31fefe528c6957515d27cccd649cd8c83f386237275927b6"},
 ]
 
 [package.dependencies]
+nonebot-adapter-onebot = ">=2.2.3,<3.0.0"
 nonebot2 = ">=2.0.0,<3.0.0"
 
 [[package]]
@@ -1107,13 +1108,13 @@ nonebot2 = ">=2.0.0,<3.0.0"
 
 [[package]]
 name = "nonebot-plugin-bam"
-version = "0.2.0a1"
+version = "0.2.0"
 description = "Bilibili activity monitor plugin for nonebot"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "nonebot_plugin_bam-0.2.0a1-py3-none-any.whl", hash = "sha256:959fb7b4a188cc52abc66b091872acd82061fdca3e9cbbc7acd2c64ee0b9bc29"},
-    {file = "nonebot_plugin_bam-0.2.0a1.tar.gz", hash = "sha256:dced017d97af3c0d7b57d1bc975a038811a0fd3958afdea13eaa9b4faad06e49"},
+    {file = "nonebot_plugin_bam-0.2.0-py3-none-any.whl", hash = "sha256:4f75f3fc25488480f889149d7a20c1b052765e247ffec323348976f93c457cba"},
+    {file = "nonebot_plugin_bam-0.2.0.tar.gz", hash = "sha256:1c0f3a0089d8bbb3861ea9d05eb0560ce671bc6f56fc11eddf7639677a4e05e3"},
 ]
 
 [package.dependencies]
@@ -1187,13 +1188,13 @@ files = [
 
 [[package]]
 name = "platformdirs"
-version = "3.5.3"
+version = "3.7.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "platformdirs-3.5.3-py3-none-any.whl", hash = "sha256:0ade98a4895e87dc51d47151f7d2ec290365a585151d97b4d8d6312ed6132fed"},
-    {file = "platformdirs-3.5.3.tar.gz", hash = "sha256:e48fabd87db8f3a7df7150a4a5ea22c546ee8bc39bc2473244730d4b56d2cc4e"},
+    {file = "platformdirs-3.7.0-py3-none-any.whl", hash = "sha256:cfd065ba43133ff103ab3bd10aecb095c2a0035fcd1f07217c9376900d94ba07"},
+    {file = "platformdirs-3.7.0.tar.gz", hash = "sha256:87fbf6473e87c078d536980ba970a472422e94f17b752cfad17024c18876d481"},
 ]
 
 [package.extras]
@@ -1487,13 +1488,13 @@ doc = ["pytoolconfig[doc]", "sphinx (>=4.5.0)", "sphinx-autodoc-typehints (>=1.1
 
 [[package]]
 name = "setuptools"
-version = "67.8.0"
+version = "68.0.0"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "setuptools-67.8.0-py3-none-any.whl", hash = "sha256:5df61bf30bb10c6f756eb19e7c9f3b473051f48db77fddbe06ff2ca307df9a6f"},
-    {file = "setuptools-67.8.0.tar.gz", hash = "sha256:62642358adc77ffa87233bc4d2354c4b2682d214048f500964dbe760ccedf102"},
+    {file = "setuptools-68.0.0-py3-none-any.whl", hash = "sha256:11e52c67415a381d10d6b462ced9cfb97066179f0e871399e006c4ab101fc85f"},
+    {file = "setuptools-68.0.0.tar.gz", hash = "sha256:baf1fdb41c6da4cd2eae722e135500da913332ab3f2f5c7d33af9b492acb5235"},
 ]
 
 [package.extras]
@@ -1972,4 +1973,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "b5ed452926647aed165b9172cd61da85264a395f6df80c9f2572aa0cf553f1c8"
+content-hash = "3e50d040c854b99c7716f370672880010de31ad32d0abd1da2f9992214c91220"
